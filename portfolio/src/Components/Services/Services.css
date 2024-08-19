@@ -1,0 +1,147 @@
+@import '../../App.css';
+
+.services{
+background: linear-gradient(180de, #0c0c1d  , #111132);
+height: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.titlecontainer{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 738px) {
+        width: 100%;
+         }
+  
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    @media (max-width: 738px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+         }
+
+    img{
+        width: 159px;
+        height: 70px;
+        border-radius: 50px;
+        object-fit: cover;
+
+        @media (max-width: 738px) {
+            width: 200px;
+            height: 50px;
+            
+             }
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+        @media (max-width: 738px) {
+            font-size: 31px;
+             }
+        
+        }
+    }
+    button{
+        width: 200;
+        height: 300;
+        background-color: orange;
+        cursor: pointer;
+        border: none;
+        border-radius: 50px;
+        font-size: 20;
+        padding: 20px;
+        @media (max-width: 738px) {
+            font-size: 13px;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+             }
+    }
+}
+
+
+.listcontainer{
+flex: 2;
+display: flex;
+max-width: 1000px;
+margin: auto;
+
+@media (max-width: 738px) {
+    flex-direction: column;
+    width: 100%;
+     }
+
+.box{
+padding: 40px;
+border: 0.5px solid grey;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+@media (max-width: 738px) {
+    border: none;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+     }
+
+p{
+    @media (max-width: 738px) {
+        display: none;
+         }
+}
+}
+button{
+    padding: 8px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    gap: 20;
+
+    @media (max-width: 738px) {
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1px solid orange;
+        color: orange;
+        width: 40%;
+         }
+}
+}
+
+.textcontainer{
+    flex: 2;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    @media (max-width: 738px) {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+         }
+
+    hr{
+        width: 300px;
+        border: none;
+        border-top: 0.5px solid grey;
+        @media (max-width: 738px) {
+           width: 250px;
+             }
+    }
+    p{
+        font-weight: 200;
+        font-size: 14px;
+        color: gray;
+        text-align: right;
+    }
+}
